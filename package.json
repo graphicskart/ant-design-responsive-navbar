@@ -2,7 +2,7 @@
   "name": "ant-design-navbar",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://graphicskart.github.io/ant-design-navbar",
+  "homepage": "https://graphicskart.github.io/ant-design-responsive-navbar",
   "dependencies": {
     "antd": "^3.8.2",
     "gh-pages": "^2.0.1",

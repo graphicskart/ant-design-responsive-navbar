@@ -1,7 +1,5 @@
 import React, { Component } from 'react';
-import { Menu, Icon } from 'antd';
-const SubMenu = Menu.SubMenu;
-const MenuItemGroup = Menu.ItemGroup;
+import { Menu } from 'antd';
 
 class RightMenu extends Component {
   render() {
