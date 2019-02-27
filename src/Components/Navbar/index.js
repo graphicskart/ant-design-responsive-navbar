@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import LeftMenu from './LeftMenu'
 import RightMenu from './RightMenu'
 import { Drawer, Button } from 'antd';
+import './index.css'
 
 class Navbar extends Component {
 	state = {
@@ -19,7 +20,6 @@ class Navbar extends Component {
       visible: false,
     });
   };
-
   render() {
     return (
         <nav className="menuBar">
@@ -46,7 +46,6 @@ class Navbar extends Component {
 		          <LeftMenu />
 		          <RightMenu />
 		        </Drawer>
-
         	</div>
         </nav>
     );
